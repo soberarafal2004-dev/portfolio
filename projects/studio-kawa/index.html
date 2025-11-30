@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Studio Kawa — Landing | Rafał</title>
+
+  <!-- jeśli używasz głównego style.css z root -->
+  <link rel="stylesheet" href="../../style.css">
+
+  <meta name="description" content="Studio Kawa — responsywny landing stworzony przez Rafała">
+</head>
+<body>
+
+  <header class="section">
+    <h1>Studio Kawa — Landing</h1>
+    <p>Responsywny landing dla lokalnej kawiarni: hero, oferta, menu, galeria i formularz kontaktowy.</p>
+  </header>
+
+  <section class="section">
+    <h2>Cel projektu</h2>
+    <p>Celem było szybkie zbudowanie przejrzystego landing page, który przedstawia ofertę, menu i umożliwia szybki kontakt/rezerwację przez formularz.</p>
+  </section>
+
+  <section class="section">
+    <h2>Zakres prac</h2>
+    <ul>
+      <li>Responsywny layout (mobile-first)</li>
+      <li>Hero + CTA</li>
+      <li>Sekcja oferty i cennik</li>
+      <li>Formularz kontaktowy podłączony do Formspree</li>
+      <li>Galeria / zrzuty ekranu</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Galeria (zrzuty)</h2>
+    <div class="gallery">
+      <!-- wklej tu nazwy plików z folderu screenshots -->
+      <img src="screenshots/screenshot1.png" alt="Studio Kawa - strona główna" style="max-width:200px; margin-right:10px;">
+      <img src="screenshots/screenshot2.png" alt="Studio Kawa - menu" style="max-width:200px;">
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Formularz kontaktowy</h2>
+    <!-- podmień action na swój endpoint Formspree -->
+    <form action="https://formspree.io/f/XXXXXXX" method="POST">
+      <input type="text" name="name" placeholder="Imię i nazwisko" required><br>
+      <input type="email" name="email" placeholder="Email" required><br>
+      <textarea name="message" placeholder="Wiadomość" required></textarea><br>
+      <button type="submit">Wyślij</button>
+    </form>
+    <p>Uwagi: Formularz wysyła wiadomość na e-mail po podłączeniu Formspree.</p>
+  </section>
+
+  <section class="section">
+    <h2>Link</h2>
+    <p><a href="../../index.html">Wróć do portfolio</a></p>
+  </section>
+
+</body>
+</html>
