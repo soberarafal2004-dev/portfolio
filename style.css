@@ -83,6 +83,49 @@ header {
     top: 0;
     z-index: 100;
 }
-main {
+.hero-offer {
     text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.hero-offer .subheading {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #4cc9f0;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero-offer .main-heading {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #111;
+    margin-bottom: 25px;
+}
+
+.hero-offer .description {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #4cc9f0;
+    color: white;
+    padding: 14px 28px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #38a8c8;
+    transform: translateY(-2px);
 }
